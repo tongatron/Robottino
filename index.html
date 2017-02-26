@@ -1,1 +1,408 @@
-<h1>Hello</h1>
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="utf-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <!-- The above 3 meta tags *must* come first in the head; any other head content must come *after* these tags -->
+    <title>Robottino</title>
+    <!-- Bootstrap -->
+
+     <link rel="shortcut icon" href="favicon.ico">
+    <link href="css/bootstrap.min.css" rel="stylesheet">
+    <!-- HTML5 shim and Respond.js for IE8 support of HTML5 elements and media queries -->
+    <!-- WARNING: Respond.js doesn't work if you view the page via file:// -->
+    <!--[if lt IE 9]>
+    <script src="https://oss.maxcdn.com/html5shiv/3.7.2/html5shiv.min.js"></script>
+    <script src="https://oss.maxcdn.com/respond/1.4.2/respond.min.js"></script>
+    <![endif]-->
+    <link href='https://fonts.googleapis.com/css?family=Open+Sans:400,300,600,700,800' rel='stylesheet' type='text/css'>
+    <!--
+    <link href='https://fonts.googleapis.com/css?family=Roboto+Mono:400,100,300,500,700,400italic' rel='stylesheet' type='text/css'>
+    <link href='https://fonts.googleapis.com/css?family=Roboto:400,100,300,500,700,900' rel='stylesheet' type='text/css'>
+    -->
+    <style type="text/css">
+    *{
+    font-family: 'Open Sans', sans-serif;
+    }
+    body {
+    
+    background-color: white;
+    
+    background-image: url("img/squairy_light/squairy_light.png");
+    
+    background-repeat: repeat;
+    margin 0;
+    padding 0;
+    
+    }
+    .jumbotron {
+    padding-top: 20px;
+    padding-bottom: 20px;
+    color: white;
+    /*background-image: url(img/stardust/stardust.png); */
+    background-color: #D05353;
+    }
+
+    .lavagna{
+      /*background-image: url("img/mochaGrunge/mochaGrunge.png");*/
+      background-color: #FFB400;
+    }
+
+    h1{
+
+    }
+    
+    }
+    .jumbotron h1{
+    font-size: 76px;
+    font-weight: 800;
+    }
+    .jumbotron h2{
+    font-weight: 300;
+    font-size: 22px;
+    }
+    .sfondo-scuro a{
+    color:black;
+    }
+    h4{
+    font-weight: 600;
+    }
+    a{
+    font-weight: 700;
+    }
+
+    footer{
+     
+    }
+
+    </style>
+  </head>
+  <body>
+    <div id="fb-root"></div>
+    <script>(function(d, s, id) {
+    var js, fjs = d.getElementsByTagName(s)[0];
+    if (d.getElementById(id)) return;
+    js = d.createElement(s); js.id = id;
+    js.src = "//connect.facebook.net/it_IT/sdk.js#xfbml=1&version=v2.5&appId=271016663109135";
+    fjs.parentNode.insertBefore(js, fjs);
+    }(document, 'script', 'facebook-jssdk'));</script>
+
+
+
+
+    <!--Jumbotron-->
+    <div class="jumbotron">
+      <div class="row">
+        <div class="container">
+          <div class="col-md-8 col-md-offset-2" align="center">
+            <h1 style="font-weight: 800;font-size: 90px">Robottino</h1>
+            <h2 style="font-size: 22px;font-weight: 300">TESTA ROTANTE INTERATTIVA</h2>
+          </div>
+        </div>
+      </div>
+    </div>
+
+    <div class="container">
+      <div class="row">
+        <div class="col-md-12" align="center">
+          <!--
+          <p>- - - -VIDEO - - -</p>
+          -->
+          <iframe width="853" height="480" src="https://www.youtube.com/embed/u_HNLp4jIgg?rel=0&amp;controls=0&amp;showinfo=0" frameborder="0" allowfullscreen></iframe>
+          
+        </div>
+        <div class="col-md-8 col-md-offset-2" align="center">
+          <h3 style="font-weight:300;font-size: 34px">
+          Robottino è un robot programmabile:<br>la scheda Arduino sulla schiena consente di personalizzare i comportamenti e le intereazioni.
+          </h3>
+        </div>
+      </div>
+      <div class="row">
+        <div class="col-md-12">
+          <hr>
+        </div>
+      </div>
+      <div class="row">
+        
+        <div class="col-md-4">
+          <h3 style="color:#D05353;font-weight: 800">SENSORI E ATTUATORI</h3>
+          <p>
+            <ul style="font-size: 18px;font-weight: 300">
+              <li>Testa rotante</li>
+              <li>Espressioni della bocca</li>
+              <li>Suoni</li>
+              <li>Colorazione del naso</li>
+              <li>Sensore ultrasonico di distanza</li>
+              <li>Sensore di luminosità ambientale</li>
+            </ul>
+          </p>
+        </div>
+        <div class="col-md-4">
+          <h3 style="color:#D05353;font-weight: 800">BASATO SU ARDUINO</h3>
+          <p style="font-size: 18px;font-weight: 300">La scheda Arduino sulla schiena consente di programmare infiniti comportamenti del Robottino combinando le azioni dei suoi componenti.
+          </p>
+        </div>
+        <div class="col-md-4">
+          <h3 style="color:#D05353;font-weight: 800">DIY E OPEN SOURCE</h3>
+          <p style="font-size: 18px;font-weight: 300">Al fine di stimolare un approccio creativo e pienamente attivo nei confronti della tecnologia,
+            tutto il progetto è open source: puoi costruire il tuo Robottino in un qualsiasi Fablab d'Italia,
+            modificarlo al 100% e condividerlo.
+          </p>
+        </div>
+        <div class="row">
+          <div class="col-md-12">
+            <hr>
+          </div>
+        </div>
+      </div>
+    </div>
+
+    <!--Robottino Back to School -->
+    <div  class="lavagna">
+      <div class="container">
+        <div class="row">
+          <div class="col-md-12">
+
+            <h1 style="color: white;font-weight: 800;font-size: 64px">Laboratorio di robotica</h1>
+          </div>
+        </div>
+        <div class="row">
+          <div class="col-md-8">
+            <h4 style="font-weight: 600;color:white;font-size: 24px">Un programma didattico rivolto a ragazzi dai 6 agli 11 anni, con l'obiettivo di stimolare un approccio attivo e creativo alla robotica, il coding e l'elettronica.
+            </h4>
+            
+
+
+          </div>
+          <div class="col-md-4" align="right">
+            <!--<img src="img/kids.png">-->
+            <img src="img/fablab4kids.png" width="300px">
+            <p>
+            <br>
+            <a href="http://fablabtorino.org/fablab-4-kids/" style="color: #0098AF">www.fablabforkids.it</a>
+            </p>
+          </div>
+          <div class="col-md-12">
+            <hr>
+          </div>
+        </div>
+        <div class="row">
+          <div class="col-md-12" align="center">
+            <div class="fb-post" data-href="https://www.facebook.com/media/set/?set=a.589888541164087.1073741831.365921123560831&amp;type=3&amp;uploaded=11" data-width="700"><div class="fb-xfbml-parse-ignore"><blockquote cite="https://www.facebook.com/media/set/?set=a.589888541164087.1073741831.365921123560831&amp;type=3"><p>Laboratori di robotica e coding per ragazzi</p>Pubblicato da <a href="https://www.facebook.com/robottinocc/">Robottino</a> su&nbsp;<a href="https://www.facebook.com/media/set/?set=a.589888541164087.1073741831.365921123560831&amp;type=3">Sabato 19 marzo 2016</a></blockquote></div></div>
+            <hr>
+          </div>
+        </div>
+      </div>
+    </div>
+    
+    <!--Software-->
+    <div class="container">
+      <div class="row">
+        <div class="col-md-12" align="center">
+          <h1 style="font-weight: 800;font-size: 64px">Software</h1>
+          <br>
+          <br>
+        </div>
+      </div>
+      <div class="row">
+        <div class="col-md-4 col-md-offset-2">
+          <img src="img/robottino-stardust-600x600.jpg" class="img-responsive img-rounded" style="margin-bottom: 40px" width="400px">
+        </div>
+        <div class="col-md-4">
+          <h4 style="color:#D05353">ARDUINO IDE</h4>
+          <p>Installa sul tuo computer l'ambiente di programmazione (Windows, OSX e Linux)<br>
+            <a href="https://www.arduino.cc/en/Main/Software">Arduino IDE Downloads</a>
+          </p>
+          <br>
+          <h4 style="color:#D05353">ROBOTTINO LIBRARY</h4>
+          <p>
+            Abbiamo scritto una libreria per programmare il Robottino in maniera semplice con Arduino, la puoi scaricare qui:<br>
+            <a href="http://robottino.cc/documents/Robottino-ArduinoLibrary.zip">Robottino-master.zip</a>
+          </p>
+          <br>
+          <h4 style="color:#D05353">REFERENCE</h4>
+          <p>Qui sono spiegate e documentate tutte le funzioni della libreria Robottino:<br>
+            <a href="https://github.com/FablabTorino/Robottino/wiki/Reference">Robottino/wiki/Reference</a>
+          </p>  
+        </div>
+      </div>
+    </div>
+
+    <!--Com'è Fatto-->
+    <div class="container">
+      <div class="row">
+        <div class="col-md-12" align="center">
+          <hr>
+          
+          <h1 style="font-weight: 800;font-size: 64px">Com'è fatto</h1>
+          <br>
+        </div>
+      </div>
+      <div class="row">
+        <div class="col-md-4 col-md-offset-2">
+          <img src="img/robot-testing.jpg" class="img-responsive img-rounded" style="margin-bottom: 40px" width="400px">
+        </div>
+        <div class="col-md-4">
+          <h4 style="color:#D05353">DESIGN</h4>
+          <p>
+            Il case in legno può essere tagliato con una macchina a taglio laser. Puoi rivolgerti ad un Fablab (<a href="https://www.fablabs.io/map">www.fablabs.io/map</a>) per eseguire il taglio su pannello MDF di 3mm:
+            <ul>
+              <li>Design del case</li>
+              <li>Maschera di taglio per il cartoncino</li>
+            </ul>
+            <a href="https://github.com/FablabTorino/Robottino/tree/master/Design">Design</a>
+          </p>
+          <br>
+          <h4 style="color:#D05353">HARDWARE</h4>
+          <p>
+            Questa è roba per smanettoni, nel link trovi:
+            <ul>
+              <li>Elenco dei componenti</li>
+              <li>Schema elettrico</li>
+              <li>Circuito stampato</li>
+            </ul>
+            <a href="https://github.com/FablabTorino/Robottino/tree/master/Hardware">Hardware</a>
+          </p>
+        </div>
+      </div>
+    </div>
+
+    <!--Contattaci-->
+    <div class="container">
+      <div class="row">
+        <div class="col-md-12" align="center">
+          <hr>
+          <h1 style="font-weight: 800;font-size: 64px">Contattaci</h1>
+          <br>
+        </div>
+
+        <div class="col-md-6 col-md-offset-3">
+          <hr>
+          <script type="text/javascript" src="https://form.jotformeu.com/jsform/60725685663364"></script>
+          <hr>
+        </div>
+
+        <!--
+        <div class="col-md-6 col-md-offset-3">
+          <form>
+            <div class="form-group">
+              <label for="exampleInputName2">Nome</label>
+              <input type="text" class="form-control" id="nome">
+            </div>
+            <div class="form-group">
+              <label for="exampleInputName2">Cognome</label>
+              <input type="text" class="form-control" id="cognome">
+            </div>
+            <div class="form-group">
+              <label for="exampleInputName2">Mail</label>
+              <input type="text" class="form-control" id="mail">
+            </div>
+            <div class="form-group">
+              <label for="exampleInputName2">Messaggio</label>
+              
+              <textarea class="form-control" rows="3"></textarea>
+            </div>
+            
+            <button type="submit" class="btn btn btn-success btn-lg">Invia</button>  
+            <hr>
+          </form>
+        </div>
+        -->
+        
+      </div>
+    </div>
+
+
+    <footer class="footer">
+    <!--Made in e altro-->
+    <div class="container">
+      <div class="row">
+        
+        <div class="col-md-4">
+          
+          <h4 style="color:#D05353">MADE IN</h4>
+          <img src="img/fablab-logo-dark.png" style="margin-bottom: 20px;margin-top: 10px">
+          <p>Il progetto è sviluppato e ospitato presso il <a href="http://fablabtorino.org/">FabLab Torino</a>, un'associazione
+          per il libero accesso alla fabbricazione digitale che mette a disposizione dei suoi iscritti tutto quel che serve per realizzare i loro progetti: un laboratorio, macchine per la prototipazione digitale (stampanti 3d, macchine a taglio laser e CNC), banco di elettronica, corsi base gratuti e avanzati.
+          </p>
+          
+                  
+        </div>
+      <div class="col-md-4">
+
+      <!--
+        <h4>CONTRIBUISCONO</h4>
+        <p style="font-style: italic">
+          Giovanni Bindi<br>
+          Beppe Venturu<br>
+          Stefano Paradiso<br>
+          Federico Vanzati<br>
+          Carmine Paolino<br>
+          </p>
+        -->
+
+        <h4 style="color:#D05353">CON IL SUPPORTO DI</h4>
+        <p>
+          <a href="http://local.arduino.cc/torino/">Officine Arduino</a><br>
+          <a href="http://www.neuronica.polito.it/">Laboratorio di Neuronica del Politecnico di Torino</a>
+          <a href="http://www.centroscienza.it/">Associazione CentroScienza Onlus</a><br>
+          
+
+          
+        </p>
+        <br>
+        <h4 style="color:#D05353">SOCIAL NETWORK</h4>
+        <p>
+
+          <a href="https://www.facebook.com/robottinocc">Facebook.com/robottinocc</a>
+        </p>
+        <p>
+          <div class="fb-like" data-href="https://www.facebook.com/robottinocc" data-width="300" data-layout="standard" data-action="like" data-show-faces="true" data-share="true"></div>
+        </p>
+      </div>
+      <div class="col-md-4">
+      <h4 style="color:#D05353">OPEN SOURCE</h4>
+      <p>
+      <img src="img/github.png" width="50">
+      <a href="https://github.com/FablabTorino/Robottino">Github.com/FablabTorino/Robottino</a>
+      </p>
+      <br>
+
+
+        
+
+        <h4 style="color:#D05353">LICENZA</h4>
+        <br>
+        <p>
+          
+          <a rel="license" href="http://creativecommons.org/licenses/by-sa/4.0/"><img alt="Licenza Creative Commons" style="border-width:0" src="https://i.creativecommons.org/l/by-sa/4.0/88x31.png"/></a><br/><span xmlns:dct="http://purl.org/dc/terms/" href="http://purl.org/dc/dcmitype/InteractiveResource" property="dct:title" rel="dct:type">
+          <br><a rel="license" href="http://creativecommons.org/licenses/by-sa/4.0/">Creative Commons Attribuzione - Condividi allo stesso modo 4.0 Internazionale</a>
+        </p>
+      </div>
+    </div>
+
+
+
+    
+    
+    
+
+
+    
+      <div class="container" align="center">
+        <hr>
+        <p>
+        project powered by:<br>
+        <a href="http://tongatron.it/" style="font-weight: 800;color:#D05353">TONGATRON</a></p>
+        <br>
+      </div>
+    </footer>
+
+
+    <!-- jQuery (necessary for Bootstrap's JavaScript plugins) -->
+    <script src="https://ajax.googleapis.com/ajax/libs/jquery/1.11.3/jquery.min.js"></script>
+    <!-- Include all compiled plugins (below), or include individual files as needed -->
+    <script src="js/bootstrap.min.js"></script>
+  </body>
+</html>
